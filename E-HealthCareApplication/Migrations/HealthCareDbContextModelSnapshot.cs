@@ -35,9 +35,6 @@ namespace EHealthCareApplication.Migrations
                         .HasMaxLength(60)
                         .HasColumnType("nvarchar(60)");
 
-                    b.Property<int>("Admin")
-                        .HasColumnType("int");
-
                     b.Property<DateTime>("DateOfBirth")
                         .HasColumnType("datetime2");
 
@@ -50,6 +47,9 @@ namespace EHealthCareApplication.Migrations
                         .IsRequired()
                         .HasMaxLength(60)
                         .HasColumnType("nvarchar(60)");
+
+                    b.Property<int>("IsAdmin")
+                        .HasColumnType("int");
 
                     b.Property<string>("LastName")
                         .IsRequired()

@@ -33,7 +33,7 @@ namespace E_HealthCareApplication.Models
         public string Address { get; set; } = string.Empty;
 
         [Required]
-        public int Admin { get; set; } = 0;
+        public int IsAdmin { get; set; } = 0;
 
     }
 }

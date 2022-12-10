@@ -23,7 +23,7 @@ namespace EHealthCareApplication.Migrations
                     DateOfBirth = table.Column<DateTime>(type: "datetime2", nullable: false),
                     Phone = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Address = table.Column<string>(type: "nvarchar(60)", maxLength: 60, nullable: false),
-                    IsAdmin = table.Column<bool>(type: "bit", nullable: false)
+                    IsAdmin = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {

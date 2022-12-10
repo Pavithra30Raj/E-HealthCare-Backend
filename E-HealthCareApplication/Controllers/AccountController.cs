@@ -49,7 +49,7 @@ namespace E_HealthCareApplication.Controllers
         }
 
         [HttpPut("EditAccountById")]
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Admin,User")]
         public async Task<ActionResult<Account>> EditAccountbyId(Account newdata, int id)
         {
 
@@ -64,7 +64,7 @@ namespace E_HealthCareApplication.Controllers
             newdata.LastName = newdata.LastName;
             newdata.Phone = newdata.Phone;
             newdata.Password = newdata.Password;
-            newdata.Admin = newdata.Admin;
+            newdata.IsAdmin = newdata.IsAdmin;
 
             _context.Entry(newdata).State = EntityState.Modified;
 

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "XuUes/OTy9XHTTs5hiENAL3Do6JlM7jStNBa1rz1VQA=",
+  "Hash": "r2Tb+RAahHl6YCQpOZ3Pg31y9LXib5F7vrmBAYZ57t8=",
   "Source": "E-HealthCareApplication",
   "BasePath": "_content/E-HealthCareApplication",
   "Mode": "Default",
@@ -16,40 +16,6 @@
     }
   ],
   "Assets": [
-    {
-      "Identity": "C:\\Users\\rajenp4\\OneDrive - Dell Technologies\\FSD Materials\\Project\\Full Stack Development Project\\E-HeathCare-BackendProject\\E-HealthCareApplication\\obj\\Debug\\net6.0\\scopedcss\\bundle\\E-HealthCareApplication.styles.css",
-      "SourceId": "E-HealthCareApplication",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\rajenp4\\OneDrive - Dell Technologies\\FSD Materials\\Project\\Full Stack Development Project\\E-HeathCare-BackendProject\\E-HealthCareApplication\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
-      "BasePath": "_content/E-HealthCareApplication",
-      "RelativePath": "E-HealthCareApplication.styles.css",
-      "AssetKind": "All",
-      "AssetMode": "CurrentProject",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ApplicationBundle",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\rajenp4\\OneDrive - Dell Technologies\\FSD Materials\\Project\\Full Stack Development Project\\E-HeathCare-BackendProject\\E-HealthCareApplication\\obj\\Debug\\net6.0\\scopedcss\\bundle\\E-HealthCareApplication.styles.css"
-    },
-    {
-      "Identity": "C:\\Users\\rajenp4\\OneDrive - Dell Technologies\\FSD Materials\\Project\\Full Stack Development Project\\E-HeathCare-BackendProject\\E-HealthCareApplication\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\E-HealthCareApplication.bundle.scp.css",
-      "SourceId": "E-HealthCareApplication",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\rajenp4\\OneDrive - Dell Technologies\\FSD Materials\\Project\\Full Stack Development Project\\E-HeathCare-BackendProject\\E-HealthCareApplication\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
-      "BasePath": "_content/E-HealthCareApplication",
-      "RelativePath": "E-HealthCareApplication.bundle.scp.css",
-      "AssetKind": "All",
-      "AssetMode": "Reference",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ProjectBundle",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\rajenp4\\OneDrive - Dell Technologies\\FSD Materials\\Project\\Full Stack Development Project\\E-HeathCare-BackendProject\\E-HealthCareApplication\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\E-HealthCareApplication.bundle.scp.css"
-    },
     {
       "Identity": "C:\\Users\\rajenp4\\OneDrive - Dell Technologies\\FSD Materials\\Project\\Full Stack Development Project\\E-HeathCare-BackendProject\\E-HealthCareApplication\\wwwroot\\css\\site.css",
       "SourceId": "E-HealthCareApplication",

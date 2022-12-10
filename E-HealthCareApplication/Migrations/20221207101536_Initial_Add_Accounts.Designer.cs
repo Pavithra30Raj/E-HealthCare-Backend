@@ -51,8 +51,8 @@ namespace EHealthCareApplication.Migrations
                         .HasMaxLength(60)
                         .HasColumnType("nvarchar(60)");
 
-                    b.Property<bool>("IsAdmin")
-                        .HasColumnType("bit");
+                    b.Property<int>("IsAdmin")
+                        .HasColumnType("int");
 
                     b.Property<string>("LastName")
                         .IsRequired()

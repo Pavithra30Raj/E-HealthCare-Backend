@@ -5,7 +5,7 @@
 namespace EHealthCareApplication.Migrations
 {
     /// <inheritdoc />
-    public partial class SeedInitialData : Migration
+    public partial class SeedInitialdata : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -21,7 +21,7 @@ namespace EHealthCareApplication.Migrations
                                             "2000-03-11",
                                             "987652",
                                             "India",
-                                            0
+                                            "0",
                             },
                             schema: default);
 
@@ -36,7 +36,7 @@ namespace EHealthCareApplication.Migrations
                                             "1993-09-21",
                                             "+1-123562",
                                             "Oman",
-                                            1
+                                            "1"
 
                             },
                             schema: null);

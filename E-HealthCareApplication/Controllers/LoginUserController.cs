@@ -40,7 +40,7 @@ namespace E_HealthCareApplication.Controllers
                 DateOfBirth = request.DateOfBirth,
                 Phone = request.Phone,
                 Address = request.Address,
-                Admin = request.Admin
+                IsAdmin = request.IsAdmin
             };
 
             _context.Accounts.Add(account);
@@ -80,7 +80,7 @@ namespace E_HealthCareApplication.Controllers
                 {
                     new Claim(type: "Id", value: userAccount.Id.ToString()),
                     new Claim(ClaimTypes.Email, userAccount.Email),
-                    new Claim(ClaimTypes.Role, userAccount.Admin == 1 ? "Admin" : "User")
+                    new Claim(ClaimTypes.Role, userAccount.IsAdmin == 1 ? "Admin" : "User")
                 }),
 
                 Expires = DateTime.UtcNow.AddHours(1),

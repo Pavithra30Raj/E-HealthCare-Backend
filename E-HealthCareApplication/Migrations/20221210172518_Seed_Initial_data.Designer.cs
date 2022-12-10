@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EHealthCareApplication.Migrations
 {
     [DbContext(typeof(HealthCareDbContext))]
-    [Migration("20221210154241_Seed_Initial_Data")]
-    partial class SeedInitialData
+    [Migration("20221210172518_Seed_Initial_data")]
+    partial class SeedInitialdata
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -38,9 +38,6 @@ namespace EHealthCareApplication.Migrations
                         .HasMaxLength(60)
                         .HasColumnType("nvarchar(60)");
 
-                    b.Property<int>("IsAdmin")
-                        .HasColumnType("int");
-
                     b.Property<DateTime>("DateOfBirth")
                         .HasColumnType("datetime2");
 
@@ -53,6 +50,9 @@ namespace EHealthCareApplication.Migrations
                         .IsRequired()
                         .HasMaxLength(60)
                         .HasColumnType("nvarchar(60)");
+
+                    b.Property<int>("IsAdmin")
+                        .HasColumnType("int");
 
                     b.Property<string>("LastName")
                         .IsRequired()
